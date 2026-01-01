@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Server">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Server\Engine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Server\Engine\Public">
+      <UniqueIdentifier>{75f00ef0-20b9-4606-b82c-7af8e76382c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Engine\Private">
+      <UniqueIdentifier>{6bb6fba4-1409-4a05-9fef-6ed904672ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\FortniteGame">
+      <UniqueIdentifier>{14fa49ea-2f5e-42ed-a547-64447d061e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\FortniteGame\Public">
+      <UniqueIdentifier>{b644048f-4417-4069-8299-9fb456a394ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\FortniteGame\Private">
+      <UniqueIdentifier>{432fcf31-56b5-4b12-8c41-e3f6ddd44c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Replication">
+      <UniqueIdentifier>{9cb0ce6d-92f6-4475-8ed8-e67fdb94d40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Replication\Public">
+      <UniqueIdentifier>{f22b0ff8-020f-491b-8e22-d1807f098475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Replication\Private">
+      <UniqueIdentifier>{a598b4b8-d8ad-4f9c-8c9e-04cdc49d89a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{97efac42-78fc-4ba0-8979-07d852a94661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\SDK">
+      <UniqueIdentifier>{f045603a-ded0-4e13-9b63-3627d1c8509e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\PropertyFixup.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\UnrealContainers.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\UtfN.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="SDK\SDK\AscenderCodeRuntime_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CoreUObject_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Engine_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\FortniteGame_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GameplayAbilities_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\TacticalSprintRuntime_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Basic.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SDK\GObjects-Dump.txt">
+      <Filter>SDK</Filter>
+    </Text>
+    <Text Include="SDK\GObjects-Dump-WithProperties.txt">
+      <Filter>SDK</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDK\NameCollisions.inl">
+      <Filter>SDK</Filter>
+    </None>
+  </ItemGroup>
+</Project>

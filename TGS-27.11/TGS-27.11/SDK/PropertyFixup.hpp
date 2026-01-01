@@ -1,0 +1,32 @@
+﻿#pragma once
+
+namespace SDK
+{
+
+class alignas(0x08) FVerseFunctionProperty_
+{
+	unsigned __int8 Pad[0x10];
+};
+
+class alignas(0x01) FMulticastSparseDelegateProperty_
+{
+	unsigned __int8 Pad[0x1];
+};
+
+class alignas(0x08) FVerseDynamicProperty_
+{
+	unsigned __int8 Pad[0x10];
+};
+
+class alignas(0x01) FVerseStringProperty_
+{
+	unsigned __int8 Pad[0x10];
+};
+
+class alignas(0x01) FReferenceProperty_
+{
+	unsigned __int8 Pad[0x10];
+};
+
+}
+
